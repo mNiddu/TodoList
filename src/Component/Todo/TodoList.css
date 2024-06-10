@@ -1,0 +1,130 @@
+.todo-container {
+    background-color: darkorange;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-card {
+    background-color: white;
+    height: auto;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.404);
+    padding: 10px;
+}
+
+.todo-main h4 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+}
+
+.todo-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-input input {
+    width: 350px;
+    padding: 10px;
+    border: 2px solid darkorange;
+    border-radius: 3px;
+}
+
+.todo-input input::placeholder {
+    font-size: 1.2em;
+}
+.todo-input input:active {
+    border: 2px solid darkorange;
+
+}
+
+.todo-tab {
+    display: flex;
+    gap: 20px;
+    padding: 0px 15px;
+    margin-top: 15px;
+}
+
+.todo-head {
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: Sora, sans-serif;
+}
+
+.divider {
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.415);
+}
+
+.todo-list {
+    display: flex;
+    gap: 10px;
+    padding: 9px;
+    
+   
+   
+}
+.todo-list .list {
+    color: rgba(0, 0, 0, 0.712);
+    font-family: Sora, sans-serif;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    width: calc(100% - 26px);
+    display: inline-block;
+}
+
+.todo-list .finished{
+    text-decoration: line-through;
+}
+
+.main-list{
+    overflow-y: scroll;
+    height: 200px;
+    border: 1px solid #ccc;
+      
+}
+
+.main-list::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .main-list::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+  }
+
+.main-list::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 6px;
+}
+
+.main-list::-webkit-scrollbar-thumb:hover{
+    background: #555;
+    cursor: pointer;
+}
+
+.todo-list input {
+    color: blue;
+}
+
+
+
+.todo-click {
+    display: flex;
+    justify-content: end;
+}
+
+.todo-click button {
+    font-size: 1rem;
+    color: white;
+    background-color: orange;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top:10px;
+}
